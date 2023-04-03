@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-home {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+.container-home h3 {
+    color: rgba(13, 239, 32, 0.945);
+}
+
+.container-home p {
+    margin-bottom: 20px;
+
+}
+
+.profile-section {
+    display: flex;
+    gap: 20px;
+}
+
+.first-section {
+    margin: 0;
+    width: 50%;
+
+}
+
+.btn1 {
+    background-color: var(--primary-color7);
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    transition: var(--transition);
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.btn1:hover {
+    letter-spacing: 2px;
+    background: red;
+    color: var(--primary-color6);
+    box-shadow: var(--primary-color7);
+}
+
+.social-media{
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+}
+.media-links{
+    margin: 10px;
+    color: black;
+    background-color: red;
+    padding: 10px;
+    font-size: 60px;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.media-links:hover{
+cursor: pointer;
+color: azure;
+background-color: var(--primary-color7);
+
+
+}
+
+
+
+
+.btn2 {
+    background-color: red;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: 600;
+    transition: var(--transition);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.btn2:hover {
+    letter-spacing: 2px;
+    background:var(--primary-color7);
+    color: var(--primary-color6);
+    box-shadow: var(--primary-color7);
+}
+
+.profile-image{
+   
+        /* margin-left: 15%; */
+    /* text-align: center; */
+    background-color: var(--primary-color2);
+    position: relative;
+    /* width: max-content; */
+    height: max-content;
+    overflow: hidden;
+    border-radius: 100%;
+
+}
+
+
+
+
+
+/* 
+
+.second-section::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 850px;
+    top: -100px;
+    margin-left: 30px;
+    margin-left: 20px;
+    background: linear-gradient(rgba(13, 239, 32, 0.945), red);
+    animation: animate 4s linear infinite;
+
+}
+
+.second-section::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 16px;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */

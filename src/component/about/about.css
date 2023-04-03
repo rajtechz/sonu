@@ -1,0 +1,22 @@
+.container-about {
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.my-profile{
+    text-align: start;
+    list-style: none;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--primary-color7);
+    text-decoration: none;
+}
+

@@ -1,0 +1,47 @@
+.container-service {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.services {
+ gap: 10%;
+}
+
+.services-component {
+    background-color: var(--primary-color2);
+    border: 1px solid var(--primary-color3);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10%;
+    transition: var(--transition);
+}
+
+.services-component:hover {
+    background: transparent;
+    border: 1px solid var(--primary-color7);
+
+}
+
+.services-component img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.btn {
+    background-color: var(--primary-color7);
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    transition: var(--transition);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    letter-spacing: 2px;
+    background: red;
+    color: var(--primary-color6);
+    box-shadow: var(--primary-color7);
+}
